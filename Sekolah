@@ -1,1 +1,20 @@
+package TugasPraktikum;
+
+/**
+ *
+ * @author nabila
+ */
+public class Sekolah {
+    private String subject;
+    private int time;
+   
+   public Sekolah(String subject, int time) {
+       this.subject = subject;
+       this.time = time;
+   }
+   public void info() {
+       System.out.println("Subject = " + subject);
+       System.out.println("Time = " + time);
+}
+}  
 
