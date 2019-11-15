@@ -1,1 +1,16 @@
+package TugasPraktikum;
 
+/**
+ *
+ * @author nabila
+ */
+public class myKelas {
+    public static void main(String[] args) {
+        Sekolah S2 = new Sekolah("Math", 8);
+        S2.info();
+        Guru S1 = new Guru("Math", 8, "Pak Lu");
+        S1.inf();
+        Kelas S3 = new Kelas("Math", 8, "Pak Lu", "X RPL 1");
+        S3.infor();
+    } 
+}
