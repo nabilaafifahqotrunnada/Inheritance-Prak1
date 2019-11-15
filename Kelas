@@ -1,0 +1,17 @@
+package TugasPraktikum;
+
+/**
+ *
+ * @author nabila
+ */
+public class Kelas extends Guru {
+    private String kles;
+
+    public Kelas(String subject, int time, String ticernem, String kles) {
+        super(subject, time, ticernem);
+        this.kles = kles;
+    }
+        public void infor() {
+            System.out.println("Kles = " + kles);
+        }    
+}
