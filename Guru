@@ -1,1 +1,19 @@
+package TugasPraktikum;
 
+/**
+ *
+ * @author nabila
+ */
+public class Guru extends Sekolah {
+    
+    private String ticernem;
+
+    public Guru(String subject, int time, String ticernem) {
+        super(subject, time);
+        this.ticernem = ticernem;
+    
+    }
+    public void inf() {
+        System.out.println("Ticernem = " + ticernem);
+    }  
+}
